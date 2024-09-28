@@ -15,16 +15,21 @@ To install MultiMR, download the package from this GitHub repository and run the
 
 ### Usage
 Here's an example of how to run a multi-exposure and multi-outcome MR analysis using MultiMR:
+  
   Load the MultiMR package
-    library(MultiMR)
+
+  install.packages("MultiMR_0.1.0.tar.gz", repos = NULL, type = "source")
+  
+  library(MultiMR)
+  
   Conduct MR analysis for multiple exposures and outcomes
-    results <- multi_mr_analysis(
+  results <- multi_mr_analysis(
                   exposures = list("ieu-a-299" = "Lipid Levels", 
                                    "ieu-a-300" = "Blood Pressure"),
                   outcomes = list("ieu-a-2" = "Coronary Artery Disease", 
                                    "ebi-a-GCST009541" = "Heart Failure"))
 
-# View the results
+### View the results
 print(results)
 
 ### Contributions and Issues
