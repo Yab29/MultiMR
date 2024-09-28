@@ -18,7 +18,7 @@ Here's an example of how to run a multi-exposure and multi-outcome MR analysis u
   
   Load the MultiMR package
 
-  install.packages("MultiMR_0.1.0.tar.gz", repos = NULL, type = "source")
+   install.packages("MultiMR_0.1.0.tar.gz", repos = NULL, type = "source")
   
   library(MultiMR)
   
