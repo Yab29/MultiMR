@@ -21,7 +21,11 @@ Here's an example of how to run a multi-exposure and multi-outcome MR analysis u
                   exposures = list("ieu-a-299" = "Lipid Levels", 
                                    "ieu-a-300" = "Blood Pressure"),
                   outcomes = list("ieu-a-2" = "Coronary Artery Disease", 
-                                   "ebi-a-GCST009541" = "Heart Failure"))
+                                   "ebi-a-GCST009541" = "Heart Failure"),
+                                   p1 = 5e-08,
+                                   p2 = 5e-08
+                                   r2 = 0.001, 
+                                   kb = 10000)
 
 ### Contributions and Issues
 Contributions, suggestions, and bug reports are welcome! Feel free to open an issue or submit a pull request to help improve MultiMR.
